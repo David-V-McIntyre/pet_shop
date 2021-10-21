@@ -1,9 +1,9 @@
 # WRITE YOUR FUNCTIONS HERE
 def get_pet_shop_name(a):
-    a = "Camelot of Pets"
-    return a
-
+    pet_shop = a["name"]
+    return pet_shop
+    
 def get_total_cash(a):
-    a = 1000
-    return a
-
+    total_cash = a["admin"]["total_cash"]
+    return total_cash
+    
