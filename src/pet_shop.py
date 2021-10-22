@@ -36,5 +36,14 @@ def find_pet_by_name(a,b):
         if pet["name"] == b:
             return pet
     
+def remove_pet_by_name(a,b):
+    for pet in a["pets"]:
+        if pet["name"] == b:
+            a["pets"].remove(pet)
+    
+def add_pet_to_stock(a,b):
+    new_pet = b 
+    a["pets"].append(new_pet)
+            
 
             
