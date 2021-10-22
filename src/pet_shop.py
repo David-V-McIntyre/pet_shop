@@ -52,4 +52,8 @@ def remove_customer_cash(a,b):
     a["cash"] -= b
     return a["cash"]
 
+def get_customer_pet_count(a):
+    cust_pets = len(a["pets"])
+    return cust_pets
+
             
