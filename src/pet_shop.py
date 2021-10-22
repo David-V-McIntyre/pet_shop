@@ -56,4 +56,7 @@ def get_customer_pet_count(a):
     cust_pets = len(a["pets"])
     return cust_pets
 
+def add_pet_to_customer(a,b):
+    a["pets"].append(b)
+
             
