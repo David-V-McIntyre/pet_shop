@@ -30,4 +30,10 @@ def get_pets_by_breed(a, b):
         if pet["breed"] == b:
             pets_by_breed.append(pet)
     return pets_by_breed
-    
+
+def find_pet_by_name(a,b):
+    for pet in a["pets"]:
+        if pet["name"] == b:
+            return pet
+
+            
